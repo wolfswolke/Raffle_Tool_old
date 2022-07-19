@@ -21,7 +21,7 @@ It only uses Python included librarys.
 Compiling:
 ```
 1. Clone repo
-2. Add app_icon.ico and in_app.ico to graphics folder.
+2. Add app_icon.ico to graphics folder.
 3. install INVOKE
 4. Edit the Variables of tasks.py to be correct for your setup. (Version, ZipName, ExeName, Venv)
 5. invoke create-exe
