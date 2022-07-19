@@ -68,10 +68,9 @@ def create_exe(c, version="v9-9-9"):
         print("finished!")
 
         print("-> start creating temporary folders and copy files")
-        for folder in ["temp", "temp/logs", "temp/graphics/",
-                       "temp/graphics/rendered", "temp/graphics/rendered/general"]:
+        for folder in ["temp", "temp/graphics/"]:
             os.mkdir(folder)
-
+        shutil.copyfile("graphics/app_icon.ico", "temp/graphics/app_icon.ico")
         shutil.copytree("dist/start_app", "temp/apps")
 
         print("finished!")

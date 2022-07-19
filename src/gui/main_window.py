@@ -26,7 +26,7 @@ from logic.rand_func import get_numbers
 def main_window_function():
     main_window = tkinter.Tk()
     main_window.title("Verlosungs Tool")
-    main_window.iconbitmap("..//graphics//in_app.ico")
+    main_window.iconbitmap("..//graphics//app_icon.ico")
     main_window.geometry("250x150")
     main_window.maxsize(250, 150)
 
