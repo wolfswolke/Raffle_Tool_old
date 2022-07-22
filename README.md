@@ -29,5 +29,5 @@ Compiling:
     
 ## Support
 
-For support, email zkwolf@zkwolf.stream or send me a dm.
+Please create a Issue.
 
